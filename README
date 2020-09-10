@@ -1,0 +1,55 @@
+Name: 
+USC NetID: 
+CS 455 PA4
+Fall 2019
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+XW
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+None.
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+None.
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+AnagramDictionary: Use an hashset to store all the words in the dictionary and then traverse the hashset to store all the words in the dictionary in alphabetical order as keys and use arraylists which is seen as the value to store their anagrams to get an anagram dictionary. And there is also a method to get the value which is an arraylist of a specific input key word.
+
+Rack: Get all the subsets of the word in the rack and find all their anagrams in the anagram dictionary by using the word in alphabetical order which is the key. Then store them and their scores in a treemap which uses a new overloaded comparator to satisfy the required order. At last, print the in required order. 
+
+ScoreTable: Using a HashMap to store scores of all the character and a method to output the score of the input word.
+
+WordFinder: Including a main method. Processing the command-line argument, and handling any error processing. And using a command loop to read words in a files.
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+None.
+
+
+
+
+
